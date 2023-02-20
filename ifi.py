@@ -43,7 +43,7 @@ def get_weather_now(text):
         print(f'Город "{text}" не найден. Скорее всего вы сделали опечатку')
         return
 
-    html = get_html(location_url)
+
 
     soup = BeautifulSoup(html, 'html.parser')
 
