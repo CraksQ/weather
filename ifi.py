@@ -44,7 +44,6 @@ def get_weather_now(text):
         return
 
 
-
     soup = BeautifulSoup(html, 'html.parser')
 
     try:
