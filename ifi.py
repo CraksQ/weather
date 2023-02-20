@@ -63,7 +63,7 @@ def get_weather_now(text):
         print('Город "{:s}" не найден. Скорее всего вы сделали опечатку'.format(text))
 
 
-
+if __name__ == '__main__':
     text = input('Введи город, в котором хочешь узнать погоду: ')
     # text = 'москва'
     # find_location(text)
